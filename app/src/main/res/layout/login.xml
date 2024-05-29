@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:visibility="visible"
+    tools:context=".Login"
+    android:background="@drawable/gradient_drawable"
+    tools:visibility="visible">
+
+
+    <TextView
+        android:id="@+id/Hello"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="30dp"
+        android:text="Hello, welcome to Transformer Management  "
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        tools:ignore="HardcodedText,RtlHardcoded,SpUsage" />
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:src="@drawable/logo_resized2"
+        tools:ignore="ContentDescription,ImageContrastCheck" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter your details to continue"
+        android:layout_marginTop="15sp"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:gravity="center"
+
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/emailEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Email"
+        android:paddingTop="20dp"
+        android:inputType="textEmailAddress"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        tools:ignore="Autofill,HardcodedText,LabelFor,RtlSymmetry,SpeakableTextPresentCheck,TouchTargetSizeCheck,TextContrastCheck,VisualLintTextFieldSize" />
+
+
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        tools:ignore="Autofill,HardcodedText,LabelFor,RtlHardcoded,RtlSymmetry,SpeakableTextPresentCheck,TouchTargetSizeCheck,TextContrastCheck,VisualLintTextFieldSize" />
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="10dp"
+        android:text="Login"
+        android:textColor="@color/black"
+        tools:ignore="HardcodedText,VisualLintButtonSize,TextContrastCheck" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/google"
+        android:text="Sign up with Google"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:textColor="@color/black"
+        android:gravity="start"
+        android:textSize="19sp"
+        tools:ignore="HardcodedText,MissingPrefix,RtlHardcoded,VisualLintButtonSize"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/facebook"
+        android:text="Sign up with Facebook"
+        android:textColor="@color/black"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:gravity="start"
+        android:textSize="19sp"
+        android:layout_marginBottom="10dp"
+        tools:ignore="HardcodedText,RtlHardcoded,VisualLintButtonSize"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30sp"
+        android:layout_marginEnd="30sp"
+        android:text="Don't yet have an account?, Sign up"
+        android:textColor="@color/black"
+        android:onClick="Sign_Up"
+        android:textSize="19sp"
+        tools:ignore="HardcodedText,TouchTargetSizeCheck,TextContrastCheck" />
+
+</LinearLayout>

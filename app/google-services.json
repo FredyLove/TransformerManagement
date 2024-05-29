@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "517516238695",
+    "project_id": "transformer-management",
+    "storage_bucket": "transformer-management.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:517516238695:android:beda5c2dbcda7e512bd9c2",
+        "android_client_info": {
+          "package_name": "com.example.mp3_reader"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByoEIW88VsTJrJ_P3rf3tHl8YVB1bB-H8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
